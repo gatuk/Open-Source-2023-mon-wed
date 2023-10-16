@@ -206,7 +206,6 @@ public class Map1 {
         if(map.get("salad") != null){
             map.put("spinach", map.get("salad"));
         }
-
         return map;
     }
 

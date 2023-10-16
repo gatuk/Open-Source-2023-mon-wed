@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class Map2 {
   
- public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+ public static Map<String, Integer> wordLen_Akoi(Map<String, Integer> strings) {
     Map<String, Integer> map = new HashMap();
-    for (String s:strings) {
+    for (String s:strings.keySet()) {
         map.put(s, s.length());
     }
     return map;
